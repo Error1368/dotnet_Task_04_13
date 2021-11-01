@@ -27,7 +27,7 @@ namespace computers
 
 		public string getParams()
 		{
-			return String.Format("Name:\t{0}\nStantions count:\t{1}\nAverage distance:\t{2}\nQuality:\t{3}",
+			return String.Format("Name:	{0}\nStantions count: {1}\nAverage distance: {2} m\nQuality: {3}",
 								 name, stantions_count, average_distance, calculate_quality());
 		}
 
@@ -54,7 +54,7 @@ namespace computers
 
 		new public string getParams()
 		{
-			return String.Format("Name:\t{0}\nStantions count:\t{1}\nAverage distance:\t{2} m\nAverage speed:\t{3} Mb/s\nQuality:\t{4}",
+			return String.Format("Name: {0}\nStantions count: {1}\nAverage distance: {2} m\nAverage speed: {3} Mb/s\nQuality: {4}",
 								 name, stantions_count, average_distance, average_data_moving_speed, calculate_quality());
 		}
 
